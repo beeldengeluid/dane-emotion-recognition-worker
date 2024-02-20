@@ -22,7 +22,11 @@ black = "^22.10.0"
 mypy = "^0.982"
 types-requests = "^2.28.11.2"
 
-
+[tool.black]
+line-length = 88
+target_version = ['py310']
+include = '\.pyi?$'
+exclude = '''
 
 
 [build-system]

@@ -3,9 +3,7 @@
 import shap
 import torch
 import numpy as np
-from PIL import Image
-import os, copy, sys
-import math, json
+import math
 import random
 from tqdm import tqdm
 from fairseq import checkpoint_utils, options, progress_bar, utils
